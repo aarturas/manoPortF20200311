@@ -1,0 +1,17 @@
+{
+  "name": "manoPortF20200311",
+  "version": "1.0.0",
+  "description": "A.A.portfolio",
+  "main": "index.js",
+  "homepage": "https://aarturas.github.io/manoPortF20200311",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "A. Arturas",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.13.1"
+  }
+}
