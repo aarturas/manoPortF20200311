@@ -1,4 +1,5 @@
 // Menu Button
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -15,22 +16,25 @@
     @include easeOut;
   }
 
-  // Rotate Into X With Menu Lines
+  //   Hamburgerio brūkšnelių išdėstymas kryželiu
+
   &.close {
     transform: rotate(180deg);
 
     .btn-line {
-      // Line 1 - Rotate
+      // Linija 1 - pasukame 45 laipsniais
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
       }
 
-      // Line 2 - Hide
+      // Liniją 2 - Paslepiame
+
       &:nth-child(2) {
         opacity: 0;
       }
 
-      // Line 3 - Rotate
+      // Liniją 3 - pasukame 45 laipsniais į priešingą pusę
+
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
       }
@@ -38,7 +42,8 @@
   }
 }
 
-// Menu Overlay
+//       Menu išdėstymas
+
 .menu {
   position: fixed;
   top: 0;
@@ -71,12 +76,14 @@
     @include easeOut;
 
     &.show {
-      // Slide in from top
+      //  Menu pasirodymas iš viršaus
+
       transform: translate3d(0, 0, 0);
     }
   }
 
-  // Branding Side
+  // Branding Side arba menu skiltis
+
   &-branding {
     background: $primary-color;
     transform: translate3d(0, 100%, 0);
@@ -130,7 +137,8 @@
   }
 }
 
-// Delay each nav item slide by 0.1s
+//     Su "užlaikymu" apie 0.1 sek. kievienam punktui
+
 @for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
