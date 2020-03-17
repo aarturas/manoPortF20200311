@@ -1,4 +1,6 @@
+// ............................................
 //               Widescreens
+// ............................................
 
 @include mediaXl {
   .projects {
@@ -6,7 +8,9 @@
   }
 }
 
+// ............................................
 //           Desktops & Laptops
+// ............................................
 
 @include mediaLg {
   .projects {
@@ -14,7 +18,10 @@
   }
 }
 
-//           Tablets & Small Laptops
+// ............................................
+//              Tablets & Small Laptops
+
+// ............................................
 
 @include mediaMd {
   main {
@@ -65,17 +72,21 @@
       'job2'
       'job3';
 
-    
-
     grid-template-columns: 1fr;
   }
 
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .h6 {
+    margin: 0;
+  }
 }
 
-//         Smartphonams naudosime vieną stulpelį:
+// ............................................
+//     Smartphonams naudosime vieną stulpelį:
+// ............................................
 
 @include mediaSm {
   main {

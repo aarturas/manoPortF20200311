@@ -31,3 +31,7 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// .......................................................
+//     Įdedu JS iš interneto, kad padaryti close img
+// .......................................................
