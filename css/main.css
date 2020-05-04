@@ -171,6 +171,11 @@ main {
     color: #d48d23;
     background: #515151;
     margin: 0; }
+  .about-info h3 {
+    color: #d48d23;
+    background: #515151;
+    margin: 0;
+    text-align: center; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
