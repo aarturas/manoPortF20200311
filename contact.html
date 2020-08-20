@@ -1,127 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Susisiekite su manimi</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 
-  <!-- ......................................................................  -->
-  <!--             1.       "Hamburgerio" menu:                                -->
-  <!-- ......................................................................  -->
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Susisiekite su manimi</title>
+</head>
 
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+<!-- ......................................................................  -->
+<!--             1.       "Hamburgerio" menu:                                -->
+<!-- ......................................................................  -->
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <!-- ...................................................................  -->
+    <!--             2.      Vidinis menu sąrašas:                            -->
+    <!-- ...................................................................  -->
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
       </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Pagrindinis
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            Apie mane
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            Mano darbai
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="contact.html" class="nav-link">
+            Kaip susisiekti
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-      <!-- ...................................................................  -->
-      <!--             2.      Vidinis menu sąrašas:                            -->
-      <!-- ...................................................................  -->
+  <!-- ...................................................................  -->
+  <!--             3.      Kontaktų sąrašas:                                -->
+  <!-- ...................................................................  -->
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">
-              Pagrindinis
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">
-              Apie mane
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="work.html" class="nav-link">
-              Mano darbai
-            </a>
-          </li>
-          <li class="nav-item current">
-            <a href="contact.html" class="nav-link">
-              Kaip susisiekti
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <main id="contact">
+    <h1 class="lg-heading">
+      Mano
+      <span class="text-secondary">Kontaktai</span>
+    </h1>
+
+    <h2 class="sm-heading">
+      Kaip galėtumėte susisiekti su manimi:
+    </h2>
 
     <!-- ...................................................................  -->
     <!--             3.      Kontaktų sąrašas:                                -->
     <!-- ...................................................................  -->
 
-    <main id="contact">
-      <h1 class="lg-heading">
-        Mano
-        <span class="text-secondary">Kontaktai</span>
-      </h1>
-
-      <h2 class="sm-heading">
-        Kaip galėtumėte susisiekti su manimi:
-      </h2>
-
+    <div class="boxes">
       <!-- ...................................................................  -->
-      <!--             3.      Kontaktų sąrašas:                                -->
+      <!--             4.      El. paštas :                                     -->
       <!-- ...................................................................  -->
 
-      <div class="boxes">
-        <!-- ...................................................................  -->
-        <!--             4.      El. paštas :                                     -->
-        <!-- ...................................................................  -->
+      <div>
+        <a href="mailto:artalameister@gmail.com">
 
-        <div>
           <span class="text-secondary">
             El.paštas :
           </span>
           artalameister@gmail.com
-        </div>
+        </a>
+      </div>
 
-        <!-- ...................................................................  -->
-        <!--             5.      Telefono numeris:                                -->
-        <!-- ...................................................................  -->
+      <!-- ...................................................................  -->
+      <!--             5.      Telefono numeris:                                -->
+      <!-- ...................................................................  -->
 
-        <div>
-          <span class="text-secondary">
+      <div>
+        <span class="text-secondary">
+          <a href="tel: +370 620 59632">
             Tel.nr :
-          </span>
-          (+370) 620 59632
-        </div>
+        </span>
+        (+370) 620 59632
+        </a>
+      </div>
 
-        <!-- ...................................................................  -->
-        <!--             7.      GitHub kontaktas :                               -->
-        <!-- ...................................................................  -->
+      <!-- ...................................................................  -->
+      <!--             7.      GitHub kontaktas :                               -->
+      <!-- ...................................................................  -->
 
-        <div>
+      <div>
+        <a href="https://github.com/aarturas">
           <span class="text-secondary">
             GitHub :
           </span>
           aarturas.github...
-        </div>
+        </a>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <!-- ...................................................................  -->
-    <!--             8.     FOOTER                                            -->
-    <!-- ...................................................................  -->
+  <!-- ...................................................................  -->
+  <!--             8.     FOOTER                                            -->
+  <!-- ...................................................................  -->
 
-    <footer id="main-footer">
-      Copyright &copy; 2020
-    </footer>
+  <footer id="main-footer">
+    Copyright &copy; 2020
+  </footer>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

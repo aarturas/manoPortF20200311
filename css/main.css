@@ -4,13 +4,13 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.6s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
-    transition: all 0.5s ease-out; }
+    background: #000;
+    transition: all 0.6s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -40,16 +40,16 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #bdbcbc;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.6s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #cac9c9;
     transform: translate3d(0, 100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.6s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
@@ -60,7 +60,7 @@
       border: solid 3px #d48d23; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.6s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -72,9 +72,9 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
-    transition: all 0.5s ease-out; }
+    transition: all 0.6s ease-out; }
     .menu .nav-link:hover {
       color: #d48d23; }
 
@@ -94,8 +94,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
-  color: #fff;
+  background: #cac9c9;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.95); }
+      background: rgba(202, 201, 201, 0.95); }
 
 h1,
 h2,
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(207, 206, 206, 0.5); }
 
 h6 {
   font-size: 1rem;
@@ -154,7 +154,7 @@ main {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem;
-      transition: all 0.5s ease-out; }
+      transition: all 0.6s ease-out; }
       main .icons a:hover {
         color: #d48d23; }
   main#home {
@@ -169,11 +169,11 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info h6 {
     color: #d48d23;
-    background: #515151;
+    background: #d7d6d6;
     margin: 0; }
   .about-info h3 {
     color: #d48d23;
-    background: #515151;
+    background: #d7d6d6;
     margin: 0;
     text-align: center; }
   .about-info .bio-image {
@@ -185,15 +185,15 @@ main {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job {
-    background: #515151;
+    background: #d7d6d6;
     padding: 0.5rem;
     border-bottom: #d48d23 5px solid; }
     .about-info .job:hover {
       background: #d48d23;
       color: #000;
       transform: translate3d(0, 0, 0);
-      transition: all 0.5s ease-out;
-      transition: 0.5s; }
+      transition: all 0.6s ease-out;
+      transition: 1.2s; }
 
 .projects {
   display: grid;
@@ -205,7 +205,7 @@ main {
     .projects img:hover {
       opacity: 0.5;
       border-color: #d48d23;
-      transition: all 0.5s ease-out; }
+      transition: all 0.6s ease-out; }
 
 .boxes {
   display: flex;
@@ -218,7 +218,7 @@ main {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
+    transition: all 0.6s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #d48d23;
@@ -236,18 +236,18 @@ main {
     color: #000; }
 
 .btn-dark {
-  background: black;
+  background: #4b4949;
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: white;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #b1afaf;
+  color: #000;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
